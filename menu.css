@@ -1,0 +1,29 @@
+body{
+font-family:arial;
+}
+#menu{
+border:1px solid;
+}
+#menu>ul
+{
+backgound:#2c3e50;
+}
+#menu ul {
+list_style:none;
+position:relative;
+margin:0;
+padding:0;
+}
+#menu ul a{
+color:blue;
+text-decoration:none;
+font-size:20px;
+line-hight:30px;
+padding:0 18px;
+}
+#menu ul ul{
+position:absolute;
+background-color:#27ae60;
+top:100%;
+left:0px;
+}
